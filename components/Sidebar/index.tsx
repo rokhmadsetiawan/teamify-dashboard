@@ -84,7 +84,7 @@ const Sidebar = (props: Props) => {
       <div className="mt-auto flex flex-col items-center bg-indigo-100 px-4  rounded-xl pb-8">
         <div className="-mt-8">
           <Image
-            src={'/illustration-1.svg'}
+            src={'/ilustration-1.svg'}
             width={150}
             height={155}
             layout="fixed"
