@@ -51,17 +51,15 @@ export const options = {
       display: false,
     },
     datalabels: {
-      anchor: 'end',
-      align: 'top',
       formatter: Math.round,
       top: -20,
       font: {
-        weight: 'bold',
+        weight: 700,
       },
     },
     tooltip: {
       callbacks: {
-        title: function (data) {
+        title: function (data: any) {
           return departments[data[0].dataIndex].label
         },
       },
