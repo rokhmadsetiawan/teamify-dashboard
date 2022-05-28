@@ -55,16 +55,10 @@ export const options = {
           color: '#6B7280',
         },
         padding: 10,
-        crossAlign: 'start',
       },
     },
     y: {
-      //   grid: {
-      //     display: false,
-      //     drawBorder: false,
-      //   },
       ticks: {
-        // display: false,
         min: 0,
         max: 100,
         font: {
@@ -72,7 +66,6 @@ export const options = {
           color: '#6B7280',
         },
         padding: 10,
-        crossAlign: 'start',
       },
     },
   },
